@@ -1,1 +1,8 @@
 diag wad user list
+
+
+diagnose wad filter src <IP>
+diagnose wad debug en cat auth
+diagnose wad debug en cat policy
+diagnose wad debug en level verbose
+diagnose debug enable
