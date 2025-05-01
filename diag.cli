@@ -1,5 +1,6 @@
 diag wad user list
 
+diag wad user clear
 
 diagnose wad filter src <IP>
 diagnose wad debug en cat auth
