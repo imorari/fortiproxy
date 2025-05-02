@@ -1,0 +1,16 @@
+
+config authentication rule
+    edit "LDAP_AUTH_RULE"
+        set status enable
+        set protocol http
+        set srcintf "<source interface>"
+        set srcaddr "all"
+        set ip-based disable
+        set active-auth-method "ldap_auth_scheme"
+        set sso-auth-method ''
+        set web-auth-cookie disable
+        set cert-auth-cookie enable
+        set web-portal enable
+        set comments ''
+    next
+end
